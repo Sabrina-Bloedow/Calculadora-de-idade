@@ -1,27 +1,22 @@
-# Exercício JavaScript 1 - Sistema de Hora do Dia
+# Exercício JavaScript 2 - Calculadora de idade (com o tema dos Simpsons)
 
-Este é um exercício prático de JavaScript proposto pelo Curso em Vídeo. O objetivo é criar um sistema que exibe uma mensagem diferente dependendo da hora do dia.
+Este é um exercício prático de JavaScript proposto pelo Curso em Vídeo. O objetivo é criar uma calculadora de idade. A estilização do exercício foi feita com o tema do desenho animado Simpsons.
 
-## Descrição do Exercício
+## Funcionalidades
 
-O exercício consiste em desenvolver um código em JavaScript que:
-
-1. Obtém a hora atual do sistema.
-2. Com base na hora, exibe uma mensagem específica:
-   - Bom dia, se for de manhã (até 12h).
-   - Boa tarde, se for à tarde (até 18h).
-   - Boa noite, se for à noite.
+- Calcula a idade com base na data de nascimento inserida pelo usuário.
+- Exibe a idade em anos.
+- Exibe uma imagem de um personagem do desenho que representa a faixa etária da idade calculada.
 
 ## Como Utilizar
 
 1. Faça o download ou clone este repositório.
-2. Abra o arquivo `index.html` em um navegador da web.
-3. O sistema verificará automaticamente a hora do sistema e exibirá a mensagem correspondente.
+2. Abra o arquivo `model.html` em um navegador da web.
+3. Insira o seu ano de nascimento, selecione o seu sexo e aperte o botão.
 
 ## Estrutura do Projeto
 
-```plaintext
-|-- exercicio-js-1/
-|   |-- index.html
+|-- exercicio-js-2/
+|   |-- model.html
 |   |-- script.js
 |   |-- style.css

@@ -4,26 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Hours</title>
+    <title>Age</title>
 </head>
-<body onload="load()">
+<body>
     <header>
-        <h1>Time of day</h1>
+        <h1>Age checker</h1>
     </header>
 
     <section>
-        <div id="msg">
-            Aqui vai parecer a mensagem
+        
+        <div>
+            <p>Year of birth:
+                <input type="number" name="txtyear" id='txtyear' min="0">
+            </p>
+           <div class="buttons">
+                <p>Sex:                      
+                    <input type="radio" name="radsex" id="man" checked> 
+                    <label for="man">Man</label>
+                    <input type="radio" name="radsex" id="wom">
+                    <label for="wom">Woman</label>
+                </p>
+                <p>
+                    <input type="button" value="send" id="button" onclick="verify()">
+                </p>
+            </div>     
         </div>
             
-        <div id="img">
-            <img id="card" src="images/img-morning.png" alt="Foto do dia">
+        <div id="res">
+            Fill in the information above to see the result
         </div>
 
     </section>
 
     <footer>
-     <p>&copy; SBloedow</p>   
+     <p class="copy">&copy; SBloedow</p>   
     </footer>
 
     <script src="script.js"></script>

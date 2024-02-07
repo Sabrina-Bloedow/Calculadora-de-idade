@@ -1,33 +1,64 @@
 body{
-    background-color: rgb(164, 188, 209);
-    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #EFBE0F;
+    font-family: 'Baloo', cursive;
 }
 
-
 header{
-    color: aliceblue;
+    color: #fff;
     text-align: center;
 }
 
-
 section{
-    background-color: aliceblue;
+    background-color: #e9b705eb;
     border-radius: 10px;
     padding: 15px;
     width: 500px;  
     margin: auto;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.188);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.188);
+    
 }
-
 
 footer{
-    color: aliceblue;
+    color: #fff;
     text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
     font-style: italic;
+    
 }
 
-
 div {
-    text-align: center;
     padding: 5px;
+    display: inline-block;
+}
+
+.buttons {
+    display: flex;
+}
+
+#button {
+    background-color: #dca015de;
+    height: 26px;
+    width: 48px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.188);
+    position: relative;
+    left: 13px;
+    bottom: 1.5px;
+    cursor: pointer;
+
+}
+
+#button:hover, 
+#button:active {
+    transform: scale(1.1); 
+}
+
+#txtyear {
+    height: 19px;
+    border: none;
+    border-radius: 4px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    outline: none;
 }
