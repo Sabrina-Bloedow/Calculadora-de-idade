@@ -16,7 +16,7 @@ Este é um exercício prático de JavaScript proposto pelo Curso em Vídeo. O ob
 
 ## Estrutura do Projeto
 
-* IDADE-DO-USUÁRIO/
+* idade-do-usuario/
 * model.html
 * script.js
 * style.css
